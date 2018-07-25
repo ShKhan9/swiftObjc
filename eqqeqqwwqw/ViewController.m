@@ -6,16 +6,27 @@
 //
 
 #import "ViewController.h"
-
+#import "eqqeqqwwqw-Swift.h"
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
 
+NSArray *urlArray;
+NSArray *nameArray;
+NSArray *authorArray;
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    urlArray = [AppConstant url];
+    nameArray = [AppConstant name];
+    authorArray = [AppConstant author];
+
+    
+    
 }
 
 
